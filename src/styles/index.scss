@@ -27,6 +27,16 @@ h1 {
     1px 1px 0 black;
 }
 
+h5 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 5px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
 .controls {
   display: flex;
   flex-direction: column;
