@@ -1,0 +1,87 @@
+@import "/node_modules/semantic-ui-css/semantic.min.css";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 40px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex !important;
+  align-items: center;
+}
+
+.content {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.deleteButton {
+  margin-left: auto !important;
+}
+
+.deleteButtonHidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.dim {
+  width: 100px !important;
+}
+
+.lineRow {
+  display: flex;
+}
+
+.lineRow2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  left: -30000px;
+  top: -30000px;
+}
+
+.color {
+  border-radius: 50%;
+  border: solid 2px black;
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#gradient-canvas {
+  position: absolute;
+  left: 0;
+  top: -100000000px;
+}

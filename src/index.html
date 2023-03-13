@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Image</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>GRADIENT IMAGE GENERATOR</h1>
+
+        <div class="ui grey right floated segment compact">
+          <div class="controls">
+            <h4 class="ui horizontal divider header">COLORS</h4>
+            <button class="ui green button addColorBtn">ADD COLOR</button>
+
+            <div class="ui middle aligned selection list colorItemsList">
+              <div class="item colorItem hidden">
+                <span class="color"></span>
+                <div class="content">
+                  <div class="header"></div>
+                </div>
+                <button
+                  class="circular ui icon button deleteButton deleteButtonHidden"
+                >
+                  <i class="icon close"></i>
+                </button>
+              </div>
+            </div>
+            <h4 class="ui horizontal divider header">ORIENTATION</h4>
+
+            <div class="lineRow2">
+              <button class="ui grey button horizont">HORIZONTAL</button>
+              <button class="ui grey button vert">VERTICAL</button>
+            </div>
+
+            <h4 class="ui horizontal divider header">DIMENSIONS</h4>
+            <div class="lineRow">
+              <div class="ui right labeled input">
+                <input type="number" class="dim widthInput" value="600" />
+                <div class="ui basic label">px</div>
+              </div>
+              <div class="ui right labeled input">
+                <input type="number" class="dim heightInput" value="600" />
+                <div class="ui basic label">px</div>
+              </div>
+            </div>
+
+            <h4 class="ui horizontal divider header">DOWNLOAD</h4>
+
+            <button class="downloadBtn massive ui primary button inverted">
+              SAVE AS PNG
+            </button>
+          </div>
+        </div>
+      </section>
+      <canvas id="gradient-canvas"></canvas>
+    </main>
+  </body>
+</html>
